@@ -1,6 +1,5 @@
 https://github.com/FreeMason9224/eetv-webui/blob/master/.github%2Fworkflows%2Fstale.yml
 on:
-  
   schedule:
   - cron: '26 9 * * *'
 
@@ -9,8 +8,7 @@ jobs:
 
     runs-on: ubuntu-latest
     permissions:
-      issues: write
-      pull-requests: write
+      issues: wWrite      pull-requests: write
 
     steps:
     - uses: actions/stale@v5
