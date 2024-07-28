@@ -1,6 +1,6 @@
 https://github.com/FreeMason9224/eetv-webui/blob/master/.github%2Fworkflows%2Fstale.yml
-
 on:
+  
   schedule:
   - cron: '26 9 * * *'
 
